@@ -1,3 +1,63 @@
 body {
-    background: turquoise
+    margin: 0 auto;
+    background: url('https://images.pexels.com/photos/207489/pexels-photo-207489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
+}
+
+.app {
+    text-align: center;
+    margin: 40px;
+}
+
+form input {
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+button {
+    margin: 20px;
+    border-radius: 20px;
+    color: rgb(201, 201, 224);
+    background: rgb(11, 80, 190);
+    height: 40px;
+    width: 150px;
+
+    &:hover {
+        background: rgb(0, 128, 160);
+        transition: 0.3s;
+    }
+}
+
+ul {
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px black solid;
+    background-color: rgba(248, 248, 250, 0.5);
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.contactName,
+.contactLast {
+    font-size: 21px;
+
+}
+
+.contactEmail {
+    text-decoration: none;
+    color: rgb(21, 57, 219);
+    font-size: 18px;
+
+    &:hover {
+        color: rgb(13, 14, 14);
+    }
 }

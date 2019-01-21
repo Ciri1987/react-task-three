@@ -6,24 +6,24 @@ var Contact = React.createClass({
     render: function () {
         return (
             React.createElement('div', {
-                    className: 'contactItem row'
+                    className: 'contactItem'
                 },
                 React.createElement('div', {
                         className: 'col'
                     },
                     React.createElement('img', {
                         className: 'contactImage',
-                        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV2lI_xWihFGfnbHaUFk8KGi4e9I5TWMXa7IZGzAUr5oEOWTAj'
+                        src: 'http://chittagongit.com//images/icon-message/icon-message-1.jpg'
                     }),
                 ),
                 React.createElement('p', {
-                    className: 'contactLabel col'
+                    className: 'contactName'
                 }, 'Imię: ' + this.props.item.firstName),
                 React.createElement('p', {
-                    className: 'contactLabel col'
+                    className: 'contactLast'
                 }, 'Nazwisko: ' + this.props.item.lastName),
                 React.createElement('a', {
-                        className: 'contactEmail col',
+                        className: 'contactEmail',
                         href: 'mailto:' + this.props.item.email
                     },
                     this.props.item.email

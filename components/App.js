@@ -37,7 +37,7 @@ var App = React.createClass({
             React.createElement('div', {
                     className: 'app'
                 },
-                React.createElement('h3', {}, 'Uzupełnij swoje dane:'),
+                React.createElement('h1', {}, 'Uzupełnij swoje dane:'),
                 React.createElement(ContactForm, {
                     contact: contactForm
                 }),
